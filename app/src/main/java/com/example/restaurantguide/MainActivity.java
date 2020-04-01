@@ -12,12 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 //SUMMARY
-//Functionality
-//includes a recyclerview list of top 10 restaurants, designed with a cardview layout.
-// Each card summarises the restaurant's location, type, and rating. Each cardview has matching image resource.
-//includes a search function to filter restaurants based on user input located on the menu bar
-//implemented onclick function based on position to direct users to related page after clicking a card.
-// The related page, shows expanded information of the restaurant including its full address and overview.
+//Functionality:
+//Includes a recyclerview list of top 10 restaurants, designed with a cardview layout.
+//Each card summarises the restaurant's location, type, and rating. Each cardview has matching image resource.
+//Includes a search function to filter restaurants based on user input located on the menu bar.
+//Implemented onclick function based on position to direct users to related page after clicking a card.
+//The related page, shows expanded information of the restaurant including its full address and overview.
 
 
 public class MainActivity extends AppCompatActivity implements RestaurantListAdapter.OnNoteListener {
